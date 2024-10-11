@@ -5,8 +5,7 @@
  */
 class Command {
  public:
-  virtual ~Command() {
-  }
+  virtual ~Command() {}
   virtual void Execute() const = 0;
 };
 /**
